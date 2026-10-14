@@ -11,7 +11,7 @@ cask "bitmap-font-studio" do
   homepage "https://github.com/mihaildem/bitmap-font-studio"
 
   auto_updates true
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "Bitmap Font Studio.app"
 
