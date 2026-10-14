@@ -5,7 +5,7 @@ cask "bitmap-font-studio" do
   sha256 arm:   "e1a82501b3f2ed80a947c886dc942f8af4333fb59e2c756185930b558e5f2a2a",
          intel: "291d8859199848bcad6e75834df7feae4913eec855d47614fedcc38d4d9d6ee5"
 
-  url "https://github.com/mihaildem/bitmap-font-studio/releases/download/v#{version}/Bitmap-Font-Studio-#{version}-#{arch}.dmg"
+  url "https://github.com/mihaildem/homebrew-tap/releases/download/v#{version}/Bitmap-Font-Studio-#{version}-#{arch}.dmg"
   name "Bitmap Font Studio"
   desc "Photoshop Bitmap Font Generator & Editor"
   homepage "https://github.com/mihaildem/bitmap-font-studio"
