@@ -1,9 +1,9 @@
 cask "bitmap-font-studio" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.1.1"
-  sha256 arm:   "80d1b9ae40ca42dcd65cb4270082735665c53b687b3201ec3031761de6853182",
-         intel: "e0a23b2be022b6c510e2059b764a0d5e45aedfc3bc1e4a6e79054a8431b607dd"
+  version "0.1.2"
+  sha256 arm:   "fcb673b4f1092a08c4b549aa62d74b2b8b7f09768dcf89d667027df1df329760",
+         intel: "bec4a14d1085201055179b72e4f33d1213225fc777c065b96521754e813edd21"
 
   url "https://github.com/mihaildem/homebrew-tap/releases/download/v#{version}/Bitmap-Font-Studio-#{version}-#{arch}.dmg"
   name "Bitmap Font Studio"
